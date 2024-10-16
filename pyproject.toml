@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "signature-algorithms"
+version = "0.1.0"
+description = ""
+authors = ["Feroze Daud <ferozed@zillowgroup.com>"]
+readme = "README.md"
+packages = [{include = "signature_algorithms"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
